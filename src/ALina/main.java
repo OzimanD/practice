@@ -19,6 +19,18 @@ public class main {
             case 3:
                 result = "Wednesday";
                 break;
+            case 4:
+                result = "Th";
+                break;
+            case 5:
+                result = "Fr";
+                break;
+            case 6:
+                result = "Sa";
+                break;
+            case 7:
+                result = "Su";
+                break;
             default:
                 result = " There is no such a day ";
         }
