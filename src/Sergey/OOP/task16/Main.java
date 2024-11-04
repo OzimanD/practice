@@ -16,7 +16,9 @@ public class Main implements HokeistInter {
         //делаем это для возможности вызова переопределенных методов HokeistInter
         HokeistInter main = new Main();
 //вызываем отображение данных далее
+        //в метод viewRes передали параметры из arr_hok
         System.out.println(main.viewRes(arr_hok));
+        //в метод arr_hokip передали параметры из arr_hok
         System.out.println(main.arr_hokip(arr_hok));
     }
 

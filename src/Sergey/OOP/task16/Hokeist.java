@@ -1,7 +1,7 @@
 package Sergey.OOP.task16;
 //класс далее
 public class Hokeist {
-    //объявляем переменные даалее
+    //объявляем переменные далее
     private String lastname;
     private int age;
     private int kolvoGame;
@@ -45,7 +45,7 @@ public class Hokeist {
     public void setKolvoShayb(int kolvoShayb) {
         this.kolvoShayb = kolvoShayb;
     }
-    //возвращаем даныные, а не ссылку далее
+    //возвращаем даныные, а не ссылку на объект далее
     @Override
     public String toString() {
         return "Hokeist{" +
