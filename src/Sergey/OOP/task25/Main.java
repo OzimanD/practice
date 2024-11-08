@@ -18,7 +18,6 @@ public class Main implements ItemInter {
         System.out.println(itemIn.al_result(items));
     }
 
-
     @Override
     public ArrayList<Double> al_bigPrice(Item[] items) {
         ArrayList<Double> al_bp = new ArrayList<>();
