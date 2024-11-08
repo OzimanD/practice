@@ -41,38 +41,5 @@ public class Main implements ItemInter {
         }
         return al_res;
     }
-
-
-//    @Override
-//    public ArrayList<String> al_result(Item[] items) {
-//        ArrayList<String> al_res = new ArrayList<>();
-//        for (int i = 0; i < items.length; i++) {
-//            al_res.add(items[i]);
-//        }
-//        return al_res;
-//    }
-//
-//    @Override
-//    public ArrayList<Double> al_bigPrice(Item[] items) {
-//        double[] ad_bp = new double[10];
-//        for (int i = 0; i < items.length; i++) {
-//            ad_bp[i] = items[i].getPrice();
-//
-//        }
-//        Arrays.sort(ad_bp);
-//        double d_bp = ad_bp[items.length];
-//        return d_bp;
-//    }
-
-
-//    @Override
-//    public Item[] al_bigPrice(Item[] items) {
-//        Item[] al_bigPrice = new Item[0];
-//        double d_pr = 300.00;
-//        for (int i = 0; i > items.length; i++) {
-//                al_bigPrice = new Item[]{items[i]};
-//        }
-//        return al_bigPrice;
-//    }
 }
 
