@@ -30,7 +30,6 @@ public class Main implements ItemInter {
         return al_bp;
     }
 
-
     @Override
     public ArrayList<String> al_result(Item[] items) {
         ArrayList al_res = new ArrayList<>();
