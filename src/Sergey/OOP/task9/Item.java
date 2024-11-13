@@ -1,12 +1,13 @@
 package Sergey.OOP.task9;
-
+//>класс далее
 public class Item {
+    //поля далее
     private String names;
     private int kolvo;
     private double price;
     private String corp;
     private int year;
-
+//конструктор далее
     public Item(String names, int kolvo, double price, String corp, int year) {
         this.names = names;
         this.kolvo = kolvo;
@@ -14,7 +15,7 @@ public class Item {
         this.corp = corp;
         this.year = year;
     }
-
+//геттер-сеттер далее
     public String getNames() {
         return names;
     }
@@ -54,7 +55,7 @@ public class Item {
     public void setYear(int year) {
         this.year = year;
     }
-
+// возвращает в sout данные, а не ссылку
     @Override
     public String toString() {
         return "Item{" +
