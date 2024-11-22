@@ -1,4 +1,4 @@
-package Sergey.Advance;
+package Sergey.Advance.task16;
 
 public class Air {
     private int id;
