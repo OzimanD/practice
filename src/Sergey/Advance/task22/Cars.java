@@ -1,13 +1,15 @@
 package Sergey.Advance.task22;
 
+import java.time.LocalDate;
+
 public class Cars {
     private String marka;
     private String corp;
     private String type;
-    private int year_start;
-    private int year_regist;
+    private LocalDate year_start;
+    private LocalDate year_regist;
 
-    public Cars(String marka, String corp, String type, int year_start, int year_regist) {
+    public Cars(String marka, String corp, String type, LocalDate year_start, LocalDate year_regist) {
         this.marka = marka;
         this.corp = corp;
         this.type = type;
@@ -39,19 +41,19 @@ public class Cars {
         this.type = type;
     }
 
-    public int getYear_start() {
+    public LocalDate getYear_start() {
         return year_start;
     }
 
-    public void setYear_start(int year_start) {
+    public void setYear_start(LocalDate year_start) {
         this.year_start = year_start;
     }
 
-    public int getYear_regist() {
+    public LocalDate getYear_regist() {
         return year_regist;
     }
 
-    public void setYear_regist(int year_regist) {
+    public void setYear_regist(LocalDate year_regist) {
         this.year_regist = year_regist;
     }
 
